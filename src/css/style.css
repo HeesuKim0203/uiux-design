@@ -10,7 +10,7 @@ background-color : #333; line-height : 30px; width: 180px; text-align : center; 
 /* 레이아웃 */
 #wrap { }
 #header { height : 325px; 
-background : url(../img/header_bg.jpg) center top repeat-x; }
+background : url(../public/header_bg.jpg) center top repeat-x; }
 #contents { }
 #footer { background-color: #fff; }
 
@@ -35,7 +35,7 @@ margin-top : 40px; text-transform : uppercase; font-weight : normal; }
 .header-tit a { display : inline-block; background-color : #2698cb; font-size : 20px; padding : 5px 20px 6px 20px; color : #fff;
 margin-top: -5px;}
 .header .header-icon { text-align : center; margin-top : 30px;}
-.header .header-icon a { width : 60px; height : 60px; display : inline-block; background : url(../img/icon.png); margin : 0 3px;}
+.header .header-icon a { width : 60px; height : 60px; display : inline-block; background : url(../public/icon.png); margin : 0 3px;}
 .header .header-icon a.icon1 {background-position : 0 0;}
 .header .header-icon a.icon2 {background-position : 0 -60px;}
 .header .header-icon a.icon3 {background-position : 0 -120px;}
@@ -66,7 +66,7 @@ float : left로 인한 영역깨짐(height:0) 방지법
 /* 타이틀 */
 .tit { position : relative; padding : 5px 0; letter-spacing : 2px; }
 .tit h2{ text-align : center; font-size : 40px; font-family : 'Nanum Brush Script'; color : #2c94c4; }
-.tit .btn { position : absolute; top : 5px; right : 0; width : 60px; height : 60px;  background : url(../IMG/icon.png) no-repeat 0 -600px; }
+.tit .btn { position : absolute; top : 5px; right : 0; width : 60px; height : 60px;  background : url(../public/icon.png) no-repeat 0 -600px; }
 .tit a.btn:hover {background-position : -60px -600px;}
 .tit .btn.on {background-position: 0 -660px ; }
 
@@ -87,7 +87,7 @@ float : left로 인한 영역깨짐(height:0) 방지법
 */
 
 /* slick 배너 */
-.ban { overflow : hidden ; line-height: ;}
+.ban { overflow : hidden ; }
 .ban .slick-arrow {}
 .ban .slick-prev { float : left ; }
 .ban .slick-next { float : right ; }
@@ -105,7 +105,7 @@ float : left로 인한 영역깨짐(height:0) 방지법
 .cont .col5 { border-right : 1px solid #c8c8c8; }
 .cont .col6 { margin-right : 0; padding-right : 0; }
 
-.cont .colunm .ico_img { display : block ; width : 60px ; height : 60px ; background : url(../IMG/icon.png) no-repeat ; position : absolute ; left : 0 ; top : 0 ; }
+.cont .colunm .ico_img { display : block ; width : 60px ; height : 60px ; background : url(../public/icon.png) no-repeat ; position : absolute ; left : 0 ; top : 0 ; }
 .cont .colunm .ico_tit { padding-left : 70px ; font-size : 16px ; color : #2c94c4 ; }
 .cont .colunm .ico_desc { padding-left : 70px; padding-bottom : 15px; border-bottom : 1px solid #d0d0d0; margin-bottom : 10px ; }
 
@@ -130,9 +130,9 @@ float : left로 인한 영역깨짐(height:0) 방지법
 /* 게시판1 */
 .notice1 { position : relative; }
 .notice1 h4 { font-size : 16px; padding : 0 0 5px 0; color : #0093bd; font-weight :  bold; }
-.notice1 ul li { overflow : hidden; text-overflow : ellipsis; white-space : nowrap; background : url(../IMG/dot.gif) no-repeat 0 8px; padding-left : 8px;}
+.notice1 ul li { overflow : hidden; text-overflow : ellipsis; white-space : nowrap; background : url(../public/dot.gif) no-repeat 0 8px; padding-left : 8px;}
 .notice1 ul li a {font-size : 12px;}
-.notice1 .more { display : block; position : absolute; top : 0; right : 0; background : url(../IMG/icon.png) no-repeat -150px -90px; width : 17px; height : 17px; }
+.notice1 .more { display : block; position : absolute; top : 0; right : 0; background : url(../public/icon.png) no-repeat -150px -90px; width : 17px; height : 17px; }
 .notice1 .more:hover { background-position : -167px -90px; }
 
 
@@ -140,9 +140,9 @@ float : left로 인한 영역깨짐(height:0) 방지법
 .notice2 { position : relative; overflow : hidden;}
 .notice2 h4 { font-size : 16px; margin-top : 15px; padding-bottom : 5px; color : #0093bd; font-weight : bold; }
 .notice2 ul li { font-size : 12px; }
-.notice2 ul li a { display : block; float : left; overflow : hidden; text-overflow : ellipsis; white-space : nowrap; background : url(../IMG/dot.gif) no-repeat 0 8px; padding-left : 8px; width : 65%; }
+.notice2 ul li a { display : block; float : left; overflow : hidden; text-overflow : ellipsis; white-space : nowrap; background : url(../public/dot.gif) no-repeat 0 8px; padding-left : 8px; width : 65%; }
 .notice2 ul li span { display : block; float : right; text-align : right;}
-.notice2 .more { display : block; position : absolute; top : 15px; right : 0; background : url(../IMG/icon.png) no-repeat -150px -90px; width : 17px; height : 17px; }
+.notice2 .more { display : block; position : absolute; top : 15px; right : 0; background : url(../public/icon.png) no-repeat -150px -90px; width : 17px; height : 17px; }
 .notice2 .more:hover { background-position : -167px -90px; }
 
 
@@ -153,7 +153,7 @@ float : left로 인한 영역깨짐(height:0) 방지법
 .notice3 ul li a img{ width : 50px ; position : absolute ; left : 0 ; top : 0 ; border : 1px solid #0093bd ; }
 .notice3 ul li a strong { display : block ; }
 .notice3 ul li a span { display : block ; overflow : hidden ; text-overflow : ellipsis ; white-space : nowrap ; }
-.notice3 .more { display : block ; position : absolute ; top : 0 ; right : 0 ; background : url(../IMG/icon.png) no-repeat -150px -90px ; width : 17px ; height : 17px ; }
+.notice3 .more { display : block ; position : absolute ; top : 0 ; right : 0 ; background : url(../public/icon.png) no-repeat -150px -90px ; width : 17px ; height : 17px ; }
 .notice3 ul li a img:hover { border-color : black ; }
 
 
@@ -180,7 +180,7 @@ float : left로 인한 영역깨짐(height:0) 방지법
 .tab_menu ul li { float : left ; border : 1px solid #ccc ; margin-right : -1px ; margin-bottom : -1px ; }
 .tab_menu ul li a { display : block ; padding : 5px 10px ;}
 .tab_menu ul li ul { position : absolute ; top : 48px ; left : 0 ;  width : 270px ; border : 0 ; }
-.tab_menu ul li ul li { float : none ; border : 0 ;  background : url(../IMG/dot.gif) no-repeat 9px 8px ; padding-left : 18px ; }
+.tab_menu ul li ul li { float : none ; border : 0 ;  background : url(../public/dot.gif) no-repeat 9px 8px ; padding-left : 18px ; }
 .tab_menu ul li ul li a { overflow : hidden ; text-overflow : ellipsis ; white-space : nowrap ; width : 100% ; width : 100% ; 
     padding : 0 0 3px 0 ; }
 .tab_menu ul li.active { background-color : #2c94c4 ; }
@@ -204,7 +204,7 @@ width : 0 ; height : 0 ; overflow : hidden ;
 .tab_menu2 h4 a.more span { color : #111 ; float : right ;}
 .tab_menu2 ul { margin-top : 3px ; }
 .tab_menu2 ul li a { overflow : hidden ; text-overflow : ellipsis ; white-space : nowrap ;
-    display : block ; float : left ;margin : 2px 5px ; background: url(../IMG/dot.gif) no-repeat 0 8px ; padding-left : 8px ; width : 50% ;  }
+    display : block ; float : left ;margin : 2px 5px ; background: url(../public/dot.gif) no-repeat 0 8px ; padding-left : 8px ; width : 50% ;  }
 .tab_menu2 ul li span { display : block ; float : right ; background :none ; margin : 2px 5px ;}
 
 /* 갤러리 */
@@ -214,7 +214,7 @@ width : 0 ; height : 0 ; overflow : hidden ;
 .notice6 .gallery_btn { position : absolute ; top : 7px ; right : 5px ; }
 .notice6 .gallery_btn ul {}
 .notice6 .gallery_btn ul li { float : left ; margin : 1px 2px ; }
-.notice6 .gallery_btn ul li a { display : block ; width : 23px ; height : 23px ; background: url(../IMG/icon.png) no-repeat;}
+.notice6 .gallery_btn ul li a { display : block ; width : 23px ; height : 23px ; background: url(../public/icon.png) no-repeat;}
 .notice6 .gallery_btn li.gb_icon1 a { background-position : -150px -120px ; }
 .notice6 .gallery_btn li.gb_icon2 a { background-position : -150px -143px ; }
 .notice6 .gallery_btn li.gb_icon3 a { background-position : -150px -166px ; }
